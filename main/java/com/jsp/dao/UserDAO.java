@@ -22,7 +22,7 @@ import com.jsp.model.User;
 public class UserDAO {
 	private String jdbcURL = "jdbc:mysql://localhost:3306/test?useSSL=false";
 	private String jdbcUsername = "root";
-	private String jdbcPassword = "prateek";
+	private String jdbcPassword = "Anusha@123";
 
 	private static final String INSERT_USERS_SQL = "INSERT INTO users" + "  (name, role, login) VALUES "
 			+ " (?, ?, ?);";
